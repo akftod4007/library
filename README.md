@@ -4,9 +4,7 @@
 ### 핵심코드
 
 #### 로그인 전략 패턴
-<details>
-<summary>여기를 눌러주세요</summary>
-<div markdown="1">       
+   
 public class LoginMethod {
     private LoginStrategy strategy;
 
@@ -18,8 +16,7 @@ public class LoginMethod {
         return strategy.login();
     }
 }
-</div>
-</details>
+
 로그인을 처리할 때 모듈화와 전략 패턴을 사용해 사용자 로그인과 관리자 로그인을 관리하고 있음
 
 
