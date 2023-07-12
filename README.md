@@ -9,6 +9,7 @@
 
 #### 옵저버 패턴
 ![image](https://github.com/akftod4007/library/assets/113909192/cfb6aacb-d338-459d-9fc0-6f22bf45152e)
+
 Book class에 등록된 책의 상태에 변화(대여, 반납)가 있으면 등록된 옵저버(사용자, 관리자)에게 변화를 알려줘서 사용자와 관리자가
 
 책의 대출반납을 확인할 수 있도록 설계함
